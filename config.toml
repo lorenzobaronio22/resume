@@ -4,7 +4,7 @@ baseURL = "https://resume.lorenzobaronio.it/"
 languageCode = "it"
 title = "Lorenzo Baronio"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "G-P2X7MGR108"
 
 
 
