@@ -1,0 +1,335 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "it"
+title = "Lorenzo Baronio"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Lorenzo Baronio"
+        tagline = "Senior Software Developer"
+        avatar = "Lorenzo_img.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Rubiera (RE)"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+39 334 3065228"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "lorenzo.baronio@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.lorenzobaronio.it"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Tecniche"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Java/SpringBoot"
+        [[params.skills.list.items]]
+        details = "HTML/CSS/JavaScript/jQuery"
+        [[params.skills.list.items]]
+        details = "MySQL"
+        [[params.skills.list.items]]
+        details = "Git/SVN"
+
+        [[params.skills.list]]
+        title = "Professionali"
+        [[params.skills.list.items]]
+        details = "Comunicazione efficace"
+        [[params.skills.list.items]]
+        details = "Teamwork"
+        [[params.skills.list.items]]
+        details = "Problem solving"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Diploma di laurea triennale in scienze informatiche"
+        university = "Università Telematica privata Alessandro Volta di Zugo"
+        dates = "2020 - 2021"
+        [[params.education.list]]
+        degree = "Diploma di Perito informatico"
+        university = "Istituto sperimentale per geometri Blaise Pascal (BUS) di Reggio Emilia"
+        dates = "2004 - 2009"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Vincitore dello Startup Weekend di Pavia"
+        body = "Startup Weekend"
+        date = "2016"
+
+
+
+
+
+
+
+
+    [params.certifications]
+        enable = true
+
+        [[params.certifications.list]]
+        name = "Web Development with Java Spring Framework"
+        body = "Coursera"
+        date = "2021"
+        [[params.certifications.list]]
+        name = "Attestato programmatore Java"
+        body = "Umana forma e formatemp"
+        date = "2015"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Italiano"
+        level = "Madrelingua"
+        [[params.languages.list]]
+        name = "Inglese"
+        level = "Professionale"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Pallacanestro"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "La passione per i computer e il talento per la risoluzione dei problemi mi hanno permesso di scegliere una carriera nel software quando la vita me ne ha dato l'opportunità. Umiltà, curiosità e impegno costante mi hanno portato a guadagnare la stima dei colleghi e la fiducia dei responsabili all'interno di OT Consulting dove ho accumulato esperienza nell'assistenza, manutenzione, sviluppo e analisi di applicazioni web. Mentre continuo il mio percorso all'interno dell'azienda orientandomi anche verso la gestione di progetti, coltivo il sogno un giorno di mettermi in proprio come specialista del web a tutto tondo."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Developer"
+        dates = "2019 - Presente"
+        company = "OT Consulting"
+        details = "Team lead nell'ambito della consulenza informatica. Collaboro a diretto contatto con l'Accounting manager dell'azienda ai progetti di diversi clienti. Le mie mansioni principali sono:"
+        [[params.experience.list.items]]
+        details = "Stima e pianificazione"
+        [[params.experience.list.items]]
+        details = "Analisi funzionale"
+        [[params.experience.list.items]]
+        details = "Analisi tecnica"
+        [[params.experience.list.items]]
+        details = "Code review"
+        [[params.experience.list.items]]
+        details = "Implementazione"
+        [[params.experience.list.items]]
+        details = "Comunicazione con il cliente"
+        [[params.experience.list.items]]
+        details = "Gestione del tempo del team"
+
+        [[params.experience.list]]
+        title = "Junior Software Developer"
+        dates = "2017 - 2019"
+        company = "OT Consulting"
+        details = "Software developer nell'ambito della consulenza informatica. Collaboro alla realizzazione di progetti di un cliente dell'azienda all'interno di un team. Le mie mansioni principali sono:"
+        [[params.experience.list.items]]
+        details = "Implementazione"
+        [[params.experience.list.items]]
+        details = "Assistenza e manutenzione"
+        [[params.experience.list.items]]
+        details = "Comunicazione con il cliente"
+        [[params.experience.list.items]]
+        details = "Gestione del tempo personale"
+
+        [[params.experience.list]]
+        title = "Junior Software Engineer"
+        dates = "2015 - 2017"
+        company = "OT Consulting"
+        details = "Software engineer nell'ambito della consulenza informatica. Mi occupo di assistenza e manutenzione di web applications di clienti dell'azienda all'interno di un team. Le mie mansioni principali sono:"
+        [[params.experience.list.items]]
+        details = "Comunicazione con il cliente e con gli utenti"
+        [[params.experience.list.items]]
+        details = "Bugfixing e data handling"
+        [[params.experience.list.items]]
+        details = "Gestione dei ticket"
+        [[params.experience.list.items]]
+        details = "Gestione del tempo personale"
+
+        [[params.experience.list]]
+        title = "Helpdesk specialist"
+        dates = "2011 - 2012"
+        company = "MaxMara Fashion Group s.r.l"
+        details = "Impiegato Helpdesk per i punti vendita dei diversi brand del gruppo MaxMara, sia diretti che franchising. Le mie mansioni principali sono:"
+        [[params.experience.list.items]]
+        details = "Installazione attrezzature fiscali ed informatiche del punto vendita"
+        [[params.experience.list.items]]
+        details = "Formazione degli addetti alle vendite per le attrezzature fiscali ed informatiche del punto vendita"
+        [[params.experience.list.items]]
+        details = "Assistenza e manutenzione delle attrezzature fiscali ed informatiche del punto vendita"
+        [[params.experience.list.items]]
+        details = "Comunicazione diretta con gli adetti alle vendite e triage delle richieste"
+        [[params.experience.list.items]]
+        details = "Gestione del tempo personale in ufficio e in trasferta"
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Esperienze extracurriculari "
+        [[params.information.list.items]]
+        details = "2014 · Collabratore alla vendita Dott. A. Giuffrè Editore Spa"
+        [[params.information.list.items]]
+        details = "2012-2014 · Vice allenatore Rebasket Rubiera School"
+
+        [[params.information.list]]
+        title = "Interessi"
+        details = "Pallacanestro, Film e Serie TV"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/lorenzobaronio22"
+        title = "lorenzobaronio22"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/lorenzobaronio/"
+        title = "lorenzobaronio"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "https://twitter.com/lollobaronio"
+        title = "@lollobaronio"
+
+
+
+
+
