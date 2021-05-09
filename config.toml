@@ -40,16 +40,16 @@ googleAnalytics = "G-P2X7MGR108"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
-        url = "tel:#"
+        url = "tel:+39 334 3065228"
         text = "+39 334 3065228"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
+        url = "mailto:lorenzo.baronio@gmail.com"
         text = "lorenzo.baronio@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "www.lorenzobaronio.it"
+        text = "lorenzobaronio.it"
 
 
 
@@ -94,7 +94,7 @@ googleAnalytics = "G-P2X7MGR108"
 
         [[params.education.list]]
         degree = "Diploma di laurea triennale in scienze informatiche"
-        university = "Università Telematica privata Alessandro Volta di Zugo"
+        university = "Università Telematica Alessandro Volta di Zugo"
         dates = "2020 - 2021"
         [[params.education.list]]
         degree = "Diploma di Perito informatico"
