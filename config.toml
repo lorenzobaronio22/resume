@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://resume.lorenzobaronio.it/"
 languageCode = "it"
 title = "Lorenzo Baronio"
 theme = "hugo-devresume-theme"
